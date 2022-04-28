@@ -4,7 +4,11 @@ Project interface is a Tableau dashboard with the geospatial locations for 7 Nas
 
 # Issues
 
-Some websites were not as amenable to being scraped. One for Exit/In in Nashville worked well for the first few days until the ticket seller website was changed to one that didn't allow scraping. Even those amenable were different enough to make it difficult to know what method of extraction could work, at first. The event data scraped isn't uniform or easily cleaned, even among entries within the same website, which makes it difficult to implement some ideas that I'm still working on, such as the ability to filter available events on the dashboard by music genre.
+Some websites were not as amenable to being scraped and this would sometimes not become apparent until well into the process. One for Exit/In in Nashville worked well for the first few days until the ticket seller website was changed to one that didn't like robots. Even those amenable were different enough to make it difficult to know what method of extraction could work, at first. The event data scraped isn't uniform or easily cleaned, even among entries within the same website, which makes it difficult to implement some ideas that I'm still working on, such as the ability to filter available events on the dashboard by music genre.
+
+# Future Additions
+
+Hoping to add more venues to the list as well as the ability to search for events by genre and preview the artist's work. 
 
 <sub><a name="myfootnote1">1</a>: <i>Geolocations for venues obtained by first getting the latitude and longitude from Google Maps, then Python- Point from shapely.geometry to make a 'geometry' column and creating a GeoDataFrame.</i></sub>
 
